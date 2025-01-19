@@ -124,7 +124,7 @@ const Profile = () => {
           <div className="flex ">
             {
               <div className="grid grid-cols-3 gap-1">
-                {displayPost.map((post) => {
+                {displayPost?.map((post) => {
                   return (
                     <div key={post?._id} className="relative ">
                       <img
